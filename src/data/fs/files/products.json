@@ -1,0 +1,362 @@
+[
+  {
+    "title": "Corona",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "5000",
+    "stock": "700",
+    "id": "8d0dbf1a3d45a2c54bb41895"
+  },
+  {
+    "title": "Fernet",
+    "photo": "photo.jpg",
+    "category": "Aperitivos",
+    "price": "15000",
+    "stock": "150",
+    "id": "67f853592bd31f9d66db0eb1"
+  },
+  {
+    "title": "Aperol",
+    "photo": "photo.jpg",
+    "category": "Aperitivos",
+    "price": "12000",
+    "stock": "200",
+    "id": "17028af413c108e6ceaf268b"
+  },
+  {
+    "title": "Heineken",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "2500",
+    "stock": "200",
+    "id": "1485dc2481576d73c07e786d"
+  },
+  {
+    "title": "Blue Moon",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "4500",
+    "stock": "400",
+    "id": "f5f80440dfc1d8d5d6b937b0"
+  },
+  {
+    "title": "Quilmes",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "1500",
+    "stock": "30",
+    "id": "9047f88e4168609154b89714"
+  },
+  {
+    "title": "Estrella Galicia",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "3300",
+    "stock": "50",
+    "id": "b96734726ec6c11bad529cfe"
+  },
+  {
+    "title": "Budweiser",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "3200",
+    "stock": "50",
+    "id": "507c41a46c915c7f257c169b"
+  },
+  {
+    "title": "Bud Light",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "4500",
+    "stock": "55",
+    "id": "6bed093f5bb169a9f28b177f"
+  },
+  {
+    "title": "Stella Artois",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "4300",
+    "stock": "70",
+    "id": "81013d3fdd2f6dfcb3159e94"
+  },
+  {
+    "title": "Michelob Ultra",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "3300",
+    "stock": "70",
+    "id": "13977154eeaa2246c23a636d"
+  },
+  {
+    "title": "Brahma",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "1000",
+    "stock": "60",
+    "id": "bb4ad3918eca84d494405953"
+  },
+  {
+    "title": "Schneider",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "1500",
+    "stock": "100",
+    "id": "cc483a3768f82e6a757a1a90"
+  },
+  {
+    "title": "Andes Origen",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "1500",
+    "stock": "150",
+    "id": "bbdb88839c97ee38ca054fd8"
+  },
+  {
+    "title": "Peñón del Águila",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "2000",
+    "stock": "150",
+    "id": "5f8a532fdda09478623d01e5"
+  },
+  {
+    "title": "Patagonia",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "3000",
+    "stock": "70",
+    "id": "444cac66944902ecc13381e1"
+  },
+  {
+    "title": "Quilmes",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "1200",
+    "stock": "300",
+    "id": "65ace4d1ce2683205d1ce73b"
+  },
+  {
+    "title": "Catena Zapata",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "20000",
+    "stock": "100",
+    "id": "9059cbfdbf058ae118810519"
+  },
+  {
+    "title": "El Enemigo",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "30000",
+    "stock": "300",
+    "id": "b32006aea0c8641bb1006eae"
+  },
+  {
+    "title": "Nieto Senetiner",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "15000",
+    "stock": "300",
+    "id": "f1a45a64fb3ef2909b642cda"
+  },
+  {
+    "title": "Trapiche Terroir Series",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "15000",
+    "stock": "200",
+    "id": "9a7d5ae07823552caf6d6bdd"
+  },
+  {
+    "title": "Yacochuya",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "7000",
+    "stock": "200",
+    "id": "006cdcefe203bef5d149acd1"
+  },
+  {
+    "title": "Gran Lurton",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "15000",
+    "stock": "300",
+    "id": "22761d2166a2bfe8ab765fad"
+  },
+  {
+    "title": "Luigi Bosca",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "20000",
+    "stock": "300",
+    "id": "0d28ff81b131c92490cbb7af"
+  },
+  {
+    "title": "Gran Enemigo",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "40000",
+    "stock": "100",
+    "id": "81b3f799e9dc19d654af1a0e"
+  },
+  {
+    "title": "Altimus",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "40000",
+    "stock": "100",
+    "id": "ba06de603cc454e759d03945"
+  },
+  {
+    "title": "Salentein",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "35000",
+    "stock": "150",
+    "id": "6a3176dd4f4a67fc874b81de"
+  },
+  {
+    "title": "Enzo Bianchi Gran Corte",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "35000",
+    "stock": "250",
+    "id": "5494a2d53ec26383e5660e3b"
+  },
+  {
+    "title": "Cheval des Andes",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "35000",
+    "stock": "250",
+    "id": "682536c1284b65276e56ab70"
+  },
+  {
+    "title": "Altar Uco Edad Media",
+    "photo": "photo.jpg",
+    "category": "Wines",
+    "price": "20000",
+    "stock": "250",
+    "id": "ed376347693604c9957fe174"
+  },
+  {
+    "title": "Amstel",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "2000",
+    "stock": "150",
+    "id": "6bdf70b6bead2989cf99c9ef"
+  },
+  {
+    "title": "Asahi",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "2000",
+    "stock": "150",
+    "id": "1aa94ec558cd8b0114fcc97a"
+  },
+  {
+    "title": "Moretti",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "4000",
+    "stock": "150",
+    "id": "68d0a5b2f4c1b36131524d3f"
+  },
+  {
+    "title": "Cobra",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "3000",
+    "stock": "50",
+    "id": "1bc280c5f8cf1eccf9b2a4b8"
+  },
+  {
+    "title": "Peroni",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "4000",
+    "stock": "550",
+    "id": "606eaf533be918cb88958ceb"
+  },
+  {
+    "title": "Miller",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "3000",
+    "stock": "20",
+    "id": "379e1d75e62e72e57ab7fd9f"
+  },
+  {
+    "title": "Modelo",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "3000",
+    "stock": "250",
+    "id": "f225325de1f3e3bd28433f62"
+  },
+  {
+    "title": "Guinness",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "4000",
+    "stock": "70",
+    "id": "b1849ce43a2085adeca308e7"
+  },
+  {
+    "title": "Samuel Adams",
+    "photo": "photo.jpg",
+    "category": "Beers",
+    "price": "4000",
+    "stock": "170",
+    "id": "3f93f653b22a2832d284c52f"
+  },
+  {
+    "title": "Gancia",
+    "photo": "photo.jpg",
+    "category": "Aperitivos",
+    "price": "10000",
+    "stock": "100",
+    "id": "e19a7dc071f65c600ca91cfc"
+  },
+  {
+    "title": "Amergo Obrero",
+    "photo": "photo.jpg",
+    "category": "Aperitivos",
+    "price": "3000",
+    "stock": "100",
+    "id": "28601c441e89dd6cf705fed0"
+  },
+  {
+    "title": "Cynar",
+    "photo": "photo.jpg",
+    "category": "Aperitivos",
+    "price": "7000",
+    "stock": "150",
+    "id": "56a71f0d682d82e903cf448c"
+  },
+  {
+    "title": "Cinzano",
+    "photo": "photo.jpg",
+    "category": "Aperitivos",
+    "price": "7000",
+    "stock": "10",
+    "id": "a742f3abebc7a93e6f3de3a4"
+  },
+  {
+    "title": "Martini",
+    "photo": "photo.jpg",
+    "category": "Aperitivos",
+    "price": "7500",
+    "stock": "100",
+    "id": "eeb91c5380adfb0de4505eb4"
+  },
+  {
+    "title": "Carpano",
+    "photo": "photo.jpg",
+    "category": "Aperitivos",
+    "price": "8000",
+    "stock": "150",
+    "id": "5f1a2812cb8701131de64d90"
+  }
+]

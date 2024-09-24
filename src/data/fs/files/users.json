@@ -1,0 +1,30 @@
+[
+  {
+    "photo": "photo.jpg",
+    "email": "luis@gmail.com",
+    "password": "luis123",
+    "role": "0",
+    "id": "396c5be0a017593312e9338f"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "gonza@gmail.com",
+    "password": "gonza123",
+    "role": "0",
+    "id": "2770d8f615269ac0f30a2d60"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "pepe@gmail.com",
+    "password": "pepe123",
+    "role": "0",
+    "id": "37bf0ca6c97a63a711e447fa"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "lucho@gmail.com",
+    "password": "lucho123",
+    "role": "0",
+    "id": "9f6a6967d224ef48d508dd33"
+  }
+]
