@@ -10,6 +10,7 @@ function index(req, res, next) {
         }
 }
 
+
 async function read(req, res, next) {
     try {
         let { role } = req.query;
