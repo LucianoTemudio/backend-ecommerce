@@ -58,7 +58,7 @@ async function create(req, res, next) {
         } else {
             const error = new Error("UNABLE TO CREATE USER");
             error.statusCode = 404;
-            throw error;           
+            throw error;
         }
     } catch (error) {
         return next(error);
@@ -96,11 +96,77 @@ async function destroy(req, res, next) {
     }
 }
 
+async function showUsers (req, res, next) {
+    try {
+        let { role } = req.query;
+        let response;
+        if (!role) {
+            response = await usersManager.read();
+        } else {
+            response = await usersManager.read(role);
+        }
+        if (response.length > 0) {
+            return res.render("usersindex", { user: response })
+        } else {
+            const error = new Error("USERS NOT FOUND");
+            error.statusCode = 404;
+            throw error;
+        }
+    } catch (error) {
+        return next(error);
+        }
+}
+
+async function showOneUser (req, res, next) {
+    try {
+        const { uid } = req.params;
+        const response = await usersManager.readOne(uid);
+        if (response) {
+            return res.render("userinfo", { user: response[0] })
+        } else {
+            const error = new Error("USER NOT FOUND");
+            error.statusCode = 404;
+            throw error;
+        }
+    } catch (error) {
+        return next(error);
+    }
+}
+
+async function usersAdmin(req, res, next) {
+    try {
+        return res.render("manageusers");
+    } catch (error) {
+        return next(error);
+    }
+}
+
+async function usersLogIn(req, res, next) {
+    try {
+        const { uid } = req.params;
+        const response = await usersManager.readOne(uid);
+        if (response) {
+            return res.render("userlogin", { user: response[0]})
+        } else {
+            const error = new Error("USER NOT FOUND");
+            error.statusCode = 404;
+            throw error;
+        }
+    } catch (error) {
+        return next(error);
+    }
+}
+
 export {
     index,
     read,
     readOne,
     create,
     update,
-    destroy
+    destroy,
+    usersAdmin,
+    showUsers,
+    showOneUser,
+    usersLogIn
+    
 }

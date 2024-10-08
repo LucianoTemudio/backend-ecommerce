@@ -1,0 +1,31 @@
+<h2>Products</h2>
+<section>
+    {{#each products}}
+        
+        {{#if this.category}}
+        <h3>{{this.category}}</h3>
+        {{else}}
+        <h3>Producto sin categoria</h3>
+        {{/if}}
+
+        {{#if this.title}}
+        <h3>{{this.title}}</h3>
+        {{else}}
+        <h3>Producto sin nombre</h3>
+        {{/if}}
+
+        {{#if this.price}}
+        <h3>$ {{this.price}}</h3>
+        {{else}}
+        <h3>$ 0</h3>
+        {{/if}}
+
+        {{#if this.stock}}
+        <h3>{{this.stock}} u</h3>
+        {{else}}
+        <h3>0 u</h3>
+        {{/if}}
+        <a href="/products/{{this.id}}">details</a>
+
+    {{/each}}
+</section>

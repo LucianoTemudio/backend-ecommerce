@@ -4,27 +4,87 @@
     "email": "luis@gmail.com",
     "password": "luis123",
     "role": "0",
-    "id": "396c5be0a017593312e9338f"
+    "id": "396c5be0a017593312e9338f",
+    "isOnline": "False"
   },
   {
     "photo": "photo.jpg",
     "email": "gonza@gmail.com",
-    "password": "gonza123",
+    "password": "gonzalo123",
     "role": "0",
-    "id": "2770d8f615269ac0f30a2d60"
+    "id": "2770d8f615269ac0f30a2d60",
+    "isOnline": "False"
   },
   {
     "photo": "photo.jpg",
     "email": "pepe@gmail.com",
     "password": "pepe123",
     "role": "0",
-    "id": "37bf0ca6c97a63a711e447fa"
+    "id": "37bf0ca6c97a63a711e447fa",
+    "isOnline": "False"
   },
   {
     "photo": "photo.jpg",
     "email": "lucho@gmail.com",
     "password": "lucho123",
     "role": "0",
-    "id": "9f6a6967d224ef48d508dd33"
+    "id": "9f6a6967d224ef48d508dd33",
+    "isOnline": "False"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "gero@gmail.com",
+    "password": "gero123",
+    "role": "0",
+    "id": "7e038a27be8b9c870f51d39e",
+    "isOnline": "False"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "mariano@gmail.com",
+    "password": "mariano123",
+    "role": "0",
+    "id": "e70ae3c789aa1f9d8c3c2f85",
+    "isOnline": "False"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "juan@gmail.com",
+    "password": "juan123",
+    "role": "0",
+    "id": "47d0f15ff36107a413f3cbb3",
+    "isOnline": "False"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "cuchu@gmail.com",
+    "password": "cuchu123",
+    "role": "0",
+    "id": "715a4a43a599d08ca174add8",
+    "isOnline": "False"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "pepi@gmail.com",
+    "password": "pepi123",
+    "role": "0",
+    "id": "2eb4fe6617cece46b419c354",
+    "isOnline": "False"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "mayra@gmail.com",
+    "password": "may123",
+    "role": "0",
+    "id": "06da48e49b63c0b9870f1013",
+    "isOnline": "False"
+  },
+  {
+    "photo": "photo.jpg",
+    "email": "chicho@gmail.com",
+    "password": "chicho123",
+    "role": "0",
+    "id": "dde52281e4b4e130b3f92381",
+    "isOnline": "False"
   }
 ]

@@ -95,11 +95,86 @@ async function destroy(req, res, next) {
     }
 }
 
+async function showProducts(req, res, next) {
+    try {
+        let { category } = req.query;
+        let all;
+
+        if (!category) {
+            all = await productsManager.read();
+        } else {
+            all = await productsManager.read(category);
+        }
+        if (all.length > 0) {
+            return res.render("products", { products:all })
+        } else {
+            const error = new Error("PRODUCTS NOT FOUND");
+            error.statusCode = 404;
+            throw error;
+        }
+
+    } catch (error) {
+        return next(error)
+    }
+}
+
+async function showProductsIndex(req, res, next) {
+    try {
+        let { category } = req.query;
+        let all;
+
+        if (!category) {
+            all = await productsManager.read();
+        } else {
+            all = await productsManager.read(category);
+        }
+        if (all.length > 0) {
+            return res.render("index", { products:all })
+        } else {
+            const error = new Error("PRODUCTS NOT FOUND");
+            error.statusCode = 404;
+            throw error;
+        }
+
+    } catch (error) {
+        return next(error)
+    }
+}
+
+async function showOneProduct(req, res,next) {
+    try {
+        const { pid } = req.params;
+        const response = await productsManager.readOne(pid);
+        if (response) {
+            return res.render("oneproduct", { product: response[0] })
+        } else {
+            const error = new Error("PRODUCT NOT FOUND");
+            error.statusCode = 404;
+            throw error;
+        }
+    } catch (error) {
+        return next(error);
+    }
+}
+
+async function productsAdmin(req, res, next) {
+    try {
+        return res.render("manageproducts");
+    } catch (error) {
+        return next(error);
+    }
+}
+
+
 export {
     index,
     read,
     readOne,
     create,
     update,
-    destroy
+    destroy,
+    showProducts,
+    showOneProduct,
+    showProductsIndex,
+    productsAdmin
 }

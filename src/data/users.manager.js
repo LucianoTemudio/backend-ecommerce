@@ -51,6 +51,7 @@ class UsersManager {
     async create(data) {
         try {
             data.id = crypto.randomBytes(12).toString("hex");
+            data.isOnline = "False";
             const dataAll = await fs.promises.readFile(this.path, "utf-8");
             const parseData = JSON.parse(dataAll);
             parseData.push(data);

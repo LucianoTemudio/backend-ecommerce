@@ -1,0 +1,44 @@
+<h2>Filtros</h2>
+<a href="/?category=Beers" class="btn btn-primary">Beers</a>
+<a href="/?category=Wines" class="btn btn-primary">Wines</a>
+<a href="/?category=Aperitivos" class="btn btn-primary">Aperitivos</a>
+<a href="/" class="btn btn-primary">Todos</a>
+
+<h2>Productos disponibles</h2>
+<section>
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+        {{#each products}}
+        
+            <div class="col">
+                <div class="card card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        {{#if this.category}}
+                        <h5 class="card-title">{{this.category}}</h5>
+                        {{else}}
+                        <h5 class="card-title">Producto sin categoria</h5>
+                        {{/if}}
+
+                        {{#if this.title}}
+                        <p class="card-text">{{this.title}}</p>
+                        {{else}}
+                        <p>Producto sin nombre</p>
+                        {{/if}}
+
+                        {{#if this.price}}
+                        <p class="card-text">$ {{this.price}}</p>
+                        {{else}}
+                        <p>$ 0</p>
+                        {{/if}}
+
+                        {{#if this.stock}}
+                        <p class="card-text">{{this.stock}} u</p>
+                        {{else}}
+                        <p>0 u</p>
+                        {{/if}}
+                        <a href="/products/{{this.id}}" class="btn btn-primary">Ver detalle</a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</section>

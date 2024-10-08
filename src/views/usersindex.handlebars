@@ -1,0 +1,33 @@
+<h2>Users</h2>
+
+<section>
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+        {{#each user}}
+        
+            <div class="col">
+                <div class="card card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        {{#if this.email}}
+                        <h5 class="card-title">{{this.email}}</h5>
+                        {{else}}
+                        <h5 class="card-title">User sin email</h5>
+                        {{/if}}
+
+                        {{#if this.photo}}
+                        <p class="card-text">{{this.photo}}</p>
+                        {{else}}
+                        <p>User sin foto</p>
+                        {{/if}}
+
+                        {{#if this.password}}
+                        <p class="card-text">{{this.password}}</p>
+                        {{else}}
+                        <p>User sin password</p>
+                        {{/if}}
+                        <a href="/users/{{this.id}}" class="btn btn-primary">Ver detalle</a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</section>
