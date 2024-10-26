@@ -2,7 +2,7 @@
 
 El proyecto trata del desarrollo de un servidor para un ecommerce de bebidas alcohólicas.
 
-Se incluyeron gestores de “productos” y de “usuarios” para guardar los datos en archivos usando fs.
+Se incluyeron gestores de “productos” y de “usuarios” para guardar los datos usando mongo db.
 
 Las pruebas de los diferentes endpoints y sus métodos deben realizarse utilizando Postman.
 
