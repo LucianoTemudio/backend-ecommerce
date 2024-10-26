@@ -1,8 +1,8 @@
 function isValidData(req, res , next) {
     try {
-        const { title, photo, category, price, stock } = req.body;
-        if (!title || !photo || !category || !price || !stock) {
-            const error = new Error("Title, photo, category, price, and stock are required fields.")
+        const { title, category, stock } = req.body;
+        if (!title || !category || !stock) {
+            const error = new Error("Title, category, and stock are required fields.")
             error.statusCode = 400;
             throw error;
         } else {

@@ -1,0 +1,60 @@
+<h2>Carrito</h2>
+<section>
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+        {{#each cart}}
+        
+            <div class="col">
+                <div class="card card text-center" style="width: 18rem;">
+                    <div class="card-body">
+                        {{#if this._id}}
+                        <h5 class="card-title">cart_id: {{this._id}}</h5>
+                        {{else}}
+                        <h5 class="card-title">Carrito sin id</h5>
+                        {{/if}}
+
+                        {{#if this.user_id}}
+                        <p class="card-text">user_id: {{this.user_id}}</p>
+                        {{else}}
+                        <p class="card-text">Carrito sin user_id</p>
+                        {{/if}}
+
+                        {{#if this.product_id}}
+                        <p class="card-text">product_id: {{this.product_id}}</p>
+                        {{else}}
+                        <p>Carrito sin product_id</p>
+                        {{/if}}
+
+                        {{#if this.quantity}}
+                        <p class="card-text">{{this.quantity}} u</p>
+                        {{else}}
+                        <p>0 u</p>
+                        {{/if}}
+
+                        {{#if this.state}}
+                        <p class="card-text">{{this.state}}</p>
+                        {{else}}
+                        <p>"reserved"</p>
+                        {{/if}}
+
+                        <button type="button" class="prod_delete_btn_item" value={{this._id}}>Eliminar</button>
+
+                    </div>
+                </div>
+            </div>
+            
+        {{/each}}
+    </div>
+</section>
+
+<br>
+<br>
+<h6>Actualiza la cantidad de un producto</h6>
+<form>
+    <label for="cid_upd">cart_id:</label><br>
+    <input type="text" id="cid_upd" name="cid_upd"><br>
+
+    <label for="quantity_upd">Unidades:</label><br>
+    <input type="text" id="quantity_upd" name="quantity_upd"><br>
+
+    <button type="button" id="update_cart_btn">Actualizar</button>
+</form>

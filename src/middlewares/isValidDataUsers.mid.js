@@ -1,8 +1,8 @@
 function isValidData(req, res , next) {
     try {
-        const { photo, email, password, role } = req.body;
-        if (!photo || !email || !password || !role) {
-            const error = new Error("Photo, email, password, and role are required fields.")
+        const { email, password } = req.body;
+        if (!email || !password) {
+            const error = new Error("email and password are required fields.")
             error.statusCode = 400;
             throw error;
         } else {

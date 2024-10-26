@@ -1,6 +1,5 @@
 import { Router } from 'express';
 import {
-    index,
     read,
     readOne,
     create,
@@ -11,7 +10,6 @@ import isValidData from '../../middlewares/isValidDataUsers.mid.js';
 
 const usersRouter = Router();
 
-//usersRouter.get("/", index);
 usersRouter.get("/", read);
 usersRouter.get("/:uid", readOne);
 usersRouter.post("/",isValidData , create);

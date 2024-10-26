@@ -24,6 +24,13 @@
                         <p>Producto sin nombre</p>
                         {{/if}}
 
+                        {{#if this.photo}}
+                        <img width="50%" src={{this.photo}} alt="">
+                        {{else}}
+                        <p>Producto sin foto</p>
+                        {{/if}}
+
+
                         {{#if this.price}}
                         <p class="card-text">$ {{this.price}}</p>
                         {{else}}
@@ -35,7 +42,7 @@
                         {{else}}
                         <p>0 u</p>
                         {{/if}}
-                        <a href="/products/{{this.id}}" class="btn btn-primary">Ver detalle</a>
+                        <a href="/products/{{this._id}}" class="btn btn-primary">Ver detalle</a>
                     </div>
                 </div>
             </div>

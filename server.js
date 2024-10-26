@@ -1,3 +1,4 @@
+import "dotenv/config.js"
 import express from "express"
 import router from "./src/routers/index.router.js";
 import morgan from 'morgan';
@@ -6,11 +7,16 @@ import errorHandler from "./src/middlewares/errorHandler.mid.js";
 import pathHandler from "./src/middlewares/pathHandler.mid.js";
 import {engine} from "express-handlebars";
 import __dirname from "./utils.js";
+import dbConnect from "./src/utils/db.util.js";
 
 try {
     const server = express();
-    const port = 8000;
-    const ready = () => console.log("server ready on port " + port);
+    const port = process.env.PORT || 8080;
+    const ready = async () => {
+        console.log("server ready on port " + port);
+        await dbConnect();
+    }
+    
     server.listen(port, ready);
 
     server.use(express.urlencoded({ extended: true }))

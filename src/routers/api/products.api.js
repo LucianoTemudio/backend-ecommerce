@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import {
-    index,
     read,
+    paginate,
     readOne,
     create,
     update,
@@ -11,8 +11,8 @@ import isValidData from '../../middlewares/isValidData.mid.js';
 
 const productsRouter = Router();
 
-//productsRouter.get("/", index);
 productsRouter.get("/", read);
+productsRouter.get("/paginate", paginate);
 productsRouter.get("/:pid", readOne);
 productsRouter.post("/",isValidData , create);
 productsRouter.put("/:pid", update);

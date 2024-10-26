@@ -1,7 +1,7 @@
 <h2>Users</h2>
 
 <section>
-    <div class="row row-cols-1 row-cols-md-5 g-4">
+    <div class="row row-cols-1 row-cols-md-5 g-3">
         {{#each user}}
         
             <div class="col">
@@ -14,7 +14,7 @@
                         {{/if}}
 
                         {{#if this.photo}}
-                        <p class="card-text">{{this.photo}}</p>
+                        <img width="50%" src={{this.photo}} alt="">
                         {{else}}
                         <p>User sin foto</p>
                         {{/if}}
@@ -24,7 +24,9 @@
                         {{else}}
                         <p>User sin password</p>
                         {{/if}}
-                        <a href="/users/{{this.id}}" class="btn btn-primary">Ver detalle</a>
+                        
+                        <a href="/users/{{this._id}}" class="btn btn-primary">Ver detalle</a>
+                        <a href="/carts?user_id={{this._id}}" class="btn btn-primary">Ver carrito</a>
                     </div>
                 </div>
             </div>
